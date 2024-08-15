@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_values",
+  "info": {
+    "singularName": "our-value",
+    "pluralName": "our-values",
+    "displayName": "Our Value",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
